@@ -32,10 +32,63 @@ for x in range(1, int(number)+1):
     if(int(number)%x==0):
         factors.append(x)
 print(number, " has ",len(factors)," factors. ",factors)
-'''
+
 #problem 2
 print("Type a word")
 word = input("> ")
 word_split = word.split(" ")
 for x in word:
-'''
+    if(x=="a"):
+        print("Alpha")
+    elif(x=="b"):
+        print("Bravo")
+    elif(x=="c"):
+        print("Charlie")
+    elif(x=="d"):
+        print("Delta")
+    elif(x=="e"):
+        print("Echo")
+    elif(x=="f"):
+        print("Foxtrot")
+    elif(x=="g"):
+        print("Golf")
+    elif(x=="h"):
+        print("Hotel")
+    elif(x=="i"):
+        print("Indigo")
+    elif(x=="j"):
+        print("Juliet")
+    elif(x=="k"):
+        print("Kilo")
+    elif(x=="l"):
+        print("Lima")
+    elif(x=="m"):
+        print("Mike")
+    elif(x=="n"):
+        print("November")
+    elif(x=="o"):
+        print("Oscar")
+    elif(x=="p"):
+        print("Papa")
+    elif(x=="q"):
+        print("Quatar")
+    elif(x=="r"):
+        print("Romeo")
+    elif(x=="s"):
+        print("Siera")
+    elif(x=="t"):
+        print("Tango")
+    elif(x=="u"):
+        print("Uniform")
+    elif(x=="v"):
+        print("Victor")
+    elif(x=="w"):
+        print("Whiskey")
+    elif(x=="x"):
+        print("X-ray")
+    elif(x=="y"):
+        print("Yankee")
+    elif(x=="z"):
+        print("Zulu")
+    else:
+        print("Not word try english again")

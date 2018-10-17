@@ -25,21 +25,17 @@ Bravo Alpha Lima Lima Oscar Oscar November
 
 
 #problem 1
-print("Please pick a whole number")
+print("give me a whole number")
 number = input("> ")
-number_2 = (number%(number))
-for number in range(100): 
-    print(number % number_2)
+factors = []
+for x in range(1, int(number)+1):
+    if(int(number)%x==0):
+        factors.append(x)
+print(number, " has ",len(factors)," factors. ",factors)
 '''
 #problem 2
-print("type a word ")
+print("Type a word")
 word = input("> ")
-'''
-'''
-max = [0,1,2,3,4]
-for count in max:
-    print(count)
-
-for x in range(5):
-    print(x**2)
+word_split = word.split(" ")
+for x in word:
 '''

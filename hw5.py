@@ -1,3 +1,7 @@
+import random
 
-'''hi
-work on'''
+number = random.randint(1,6)
+print("What is your name?")
+input("> ")
+
+fuck you nigga

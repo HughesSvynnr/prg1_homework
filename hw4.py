@@ -91,4 +91,4 @@ for x in word:
     elif(x=="z"):
         print("Zulu")
     else:
-        print("Not word try english again")
+        print("Not word try english again")b 

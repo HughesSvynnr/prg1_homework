@@ -1,7 +1,7 @@
 print("Please enter a few numbers seperated by spaces")
 
 numbers = (input("> "))
-len(numbers(5))
+
 
 numbers.split(" ")
 print(numbers)

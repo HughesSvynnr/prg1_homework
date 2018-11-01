@@ -24,7 +24,7 @@ while(play_again == "yes"):
     name2 = input("> ")
     print("|ROLLED|")
     print(number)
-    score2[number]="first roll"
+    score2[number] = "first roll"
     print("Player two's score ", score2)
 
 
@@ -36,7 +36,7 @@ while(play_again == "yes"):
     input("Hit enter to roll")
     print("|ROLLED|")
     print(number)
-    score1[number]="second roll"
+    score1[number] = "second roll"
     print("Player one's score ", score1)
 
     print("next player")
@@ -46,7 +46,7 @@ while(play_again == "yes"):
     input("Hit enter to roll")
     print("|ROLLED|")
     print(number)
-    score2[number]="second roll"
+    score2[number] = "second roll"
     print("Player two's score ", score2)
 
 
@@ -58,7 +58,7 @@ while(play_again == "yes"):
     input("Hit enter to roll")
     print("|ROLLED|")
     print(number)
-    score1[number]="third roll"
+    score1[number] = "third roll"
     print("Player one's score ", score1)
 
     print("next player")
@@ -68,7 +68,7 @@ while(play_again == "yes"):
     input("Hit enter to roll")
     print("|ROLLED|")
     print(number)
-    score2[number]="third roll"
+    score2[number] = "third roll"
     print("Player two's score ", score2)
 
 

@@ -1,5 +1,6 @@
 def decode_ellen_speak(letters):
     count = 0
+    
     seperate_letters = letters.split(" ")
     original = seperate_letters[count]
     current = seperate_letters[count+1]

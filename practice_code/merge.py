@@ -13,7 +13,7 @@ def merge(items):
     elif(len(items_left)>1):
         merge(items_left)
     elif(len(items_right)>1):
-        merge(itmes_right)
+        merge(items_right)
 
 
 

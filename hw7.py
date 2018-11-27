@@ -15,3 +15,7 @@ def decode_ellen_speak(letters):
 print("please enter ellen noise (whale noise) > ")
 word = input("> ")
 decode_ellen_speak(word)
+
+
+
+

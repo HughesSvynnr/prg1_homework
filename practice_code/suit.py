@@ -5,7 +5,6 @@ class suit():
             "spade":1,
             "diamond":2,
             "clubs":3,
-            "invalid":-1
         }
     def validate(self, suit_value):
         if(suit_value in self.values):

@@ -4,7 +4,7 @@ number or face value
 #face_value
 '''
 class rank():
-    def __init__(self,face_value):
+    def __init__(self):
         self.values = {
             "ace":1,
             "2":2,
@@ -19,7 +19,6 @@ class rank():
             "jack":11,
             "queen":12,
             "king":13,
-            "invalid":-1
         }
     def validate(self, face_value):
         #return false if not in values
